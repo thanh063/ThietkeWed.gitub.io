@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout HTML</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, main, footer { padding: 20px; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin: 5px 0; }
+        a { text-decoration: none; color: #333; }
+        a:hover { text-decoration: underline; }
+        header section, main section, footer section { margin-bottom: 20px; }
+        nav ul { display: flex; flex-wrap: wrap; }
+        nav ul li { margin-right: 15px; }
+        .container { width: 90%; max-width: 1200px; margin: 0 auto; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <!-- header-top -->
+            <section>
+                <ul>
+                    <li><a href="#"><img src="OIP.jpg" alt="Logo"></a></li>
+                    <li>Hotline: 0918.033.133</li>
+                    <li><a href="#">Đặt báo</a></li>
+                    <li><a href="#">Quảng cáo</a></li>
+                    <li><a href="#">Đăng nhập | Đăng ký</a></li>
+                </ul>
+            </section>
+            <!-- end header-top -->
+            <!-- header-middle -->
+            <section>
+                <ul>
+                    <li><a href="#">Youtube báo tuổi trẻ</a></li>
+                    <li><a href="#">Cần biết</a></li>
+                    <li><a href="#">Nhà đất</a></li>
+                </ul>
+                <div>Tìm kiếm tin tức</div>
+            </section>
+            <!-- end header-middle -->
+            <!-- banner-top -->
+            <section>
+                <img src="QC.jpg" alt="Nhà tài trợ">
+                <!-- banner cho quảng cáo --> 
+            </section>
+            <!-- end banner-top -->
+            <!-- header-bottom -->
+            <section>
+                <nav>
+                    <ul>
+                        <li><a href="#">Media</a></li>
+                        <li><a href="#">Thời sự</a></li>
+                        <li><a href="#">Thế giới</a></li>
+                        <li><a href="#">Pháp luật</a></li>
+                        <li><a href="#">Kinh doanh</a></li>
+                        <li><a href="#">Công nghệ</a></li>
+                        <li><a href="#">Xe</a></li>
+                        <li><a href="#">Du lịch</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <!-- end header-bottom -->
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- main -->
+    <main>
+        <div class="container">
+            <!-- tin-chính -->
+            <article>
+                <img src="nam-4-1725463367143249590476-0-0-1250-2000-crop-1725463444012332469013.webp" alt="Tin chính">
+                <h2>CThư Tổng Bí thư, Chủ tịch nước Tô Lâm: Giáo dục hướng đến phát triển và hạnh phúc con người</h2>
+                <p>UBND TP Hà Nội ....bàn thành phố.</p>
+                <p>Từ 1-7, khi Hà Nội thí điểm mô hình chính quyền đô thị, .... các quận và thị xã Sơn Tây.</p>
+            </article>
+            <ul>
+                <li><a href="#">Thủ tướng yêu cầu trước thềm năm học 2024 - 2025: Thu gọn các điểm trường lẻ, xử nghiêm các vi phạm</a></li>
+                <li><a href="#">Chàng trai mê game đậu AI và nữ sinh thi hạng 26 Quảng Trị được doanh nghiệp tiếp sức</a></li>
+                <li><a href="#">Cá voi ‘gián điệp’ Nga đã bị bắn chết</a></li>
+                <li><a href="#">Vừa có bằng lái đã mua ngay ô tô, 'xót hết cả ruột' vì va quẹt</a></li>
+            </ul>
+            <!-- end tin-chính -->
+            <!-- ds-các-tin-mới -->
+            <section>
+                <h3>Các tin mới</h3>
+                <ul>
+                    <li><a href="#">Tin mới 1</a></li>
+                    <li><a href="#">Tin mới 2</a></li>
+                    <li><a href="#">Tin mới 3</a></li>
+                </ul>
+            </section>
+            <!-- end ds-các-tin-mới -->
+            <!-- các-tin-khác -->
+            <section>
+                <h3>Các tin khác</h3>
+                <ul>
+                    <li><a href="#">Tin khác 1</a></li>
+                    <li><a href="#">Tin khác 2</a></li>
+                    <li><a href="#">Tin khác 3</a></li>
+                </ul>
+            </section>
+            <!-- end các-tin-khác -->
+        </div>
+    </main>
+    <!-- end main -->
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <!-- footer-icon -->
+            <section>
+                <p>&copy; 2024 Công ty ABC. Bảo lưu mọi quyền.</p>
+            </section>
+            <!-- end footer-icon -->
+            <!-- footer-middle -->
+            <section>
+                <ul>
+                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                    <li><a href="#">Điều khoản sử dụng</a></li>
+                </ul>
+            </section>
+            <!-- end footer-middle -->
+            <!-- footer-bottom -->
+            <section>
+                <p>Thiết kế bởi <a href="#">Nhà thiết kế web</a></p>
+            </section>
+            <!-- end footer-bottom -->
+        </div>
+    </footer>
+    <!-- end footer -->
+</body>
+</html>
